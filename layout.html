@@ -8,7 +8,54 @@
     <style>
         #cabeçalho {
             background-color: hwb(202 0% 0%);
-            height: 50px;
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 2px solid black;
+            border-radius: 8px;
+        }
+
+        #logo {
+            background-color: aliceblue;
+            height: 70px;
+            width: 70px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+            margin-left: 10px;
+        }
+
+        #imagemlogo {
+            height: 30px;
+            width: 30px;
+            background-color: gold;
+            margin: 5px;
+            border: 1px solid black;
+            border-radius: 8px;
+        }
+
+        #login {
+            background-color: aliceblue;
+            height: 70px;
+            width: 90px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+            margin-right: 10px;
+        }
+
+        #imagemdelogin {
+            height: 30px;
+            width: 30px;
+            background-color: gold;
+            margin: 5px;
+            border: 1px solid black;
+            border-radius: 8px;
+
         }
 
         #main {
@@ -16,52 +63,104 @@
             display: flex;
         }
 
+        #listamenu {
+            display: flex;
+            list-style-type: none;
+            font-size: 40px;
+        }
+
+        li {
+            margin: 25px;
+        }
+
         #navegação {
-            background-color: green;
+            background-color: gray;
             width: 20%;
             height: 800px;
+            border: 2px solid black;
+            border-radius: 8px;
         }
 
         #promoções {
-            background-color: red;
+            background-color: aliceblue;
             width: 100%;
             height: 200px;
             display: flex;
             justify-content: space-around;
             align-items: center;
+            border: 2px solid black;
+            border-radius: 8px;
         }
 
         .fotos {
-            background-color: aliceblue;
+            background-color: gold;
             width: 100px;
             height: 120px;
         }
 
-
-
         #produtos {
-            background-color: red;
+            background-color: aliceblue;
             width: 100%;
-            height: 200px;
+
             display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            border: 2px solid black;
+            border-radius: 8px;
+        }
+
+        .fotosprodutos {
+            background-color: gold;
+            width: 100px;
+            height: 120px;
+            margin: 20px;
         }
 
         section {
-            background-color: yellowgreen;
+            background-color: gray;
             width: 80%;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
+            border: 2px solid black;
+            border-radius: 8px;
+        }
+
+        h3 {
+            margin: 0;
+            padding: 0;
         }
     </style>
 </head>
 
 <body>
     <header id="cabeçalho">
-
+        <div id="logo">
+            <div id="imagemlogo"></div>
+            <h3>Logo</h3>
+        </div>
+        <ul id="listamenu">
+            <li>Principais Ofertas</li>
+            <li>Sapatos</li>
+            <li>Roupas</li>
+            <li>Carrinhos</li>
+        </ul>
+        <div id="login">
+            <h3>Login</h3>
+            <div id="imagemdelogin"></div>
+        </div>
     </header>
     <div id="main">
         <nav id="navegação">
+            <ul>
+                <li>Artigos Esportivos</li>
+                <li>Social</li>
+                <li>Melhores Ofertas</li>
+                <li>Mais Vendidos</li>
+                <li>Tênis</li>
+                <li>Camisas</li>
+            </ul>
         </nav>
         <section>
             <div id="promoções">
@@ -73,6 +172,26 @@
                 <div class="fotos"></div>
             </div>
             <div id="produtos">
+                <div class="fotosprodutos"></div>
+                <div class="fotosprodutos"></div>
+                <div class="fotosprodutos"></div>
+                <div class="fotosprodutos"></div>
+                <div class="fotosprodutos"></div>
+                <div class="fotosprodutos"></div>
+                <div class="fotosprodutos"></div>
+                <div class="fotosprodutos"></div>
+                <div class="fotosprodutos"></div>
+                <div class="fotosprodutos"></div>
+                <div class="fotosprodutos"></div>
+                <div class="fotosprodutos"></div>
+                <div class="fotosprodutos"></div>
+                <div class="fotosprodutos"></div>
+                <div class="fotosprodutos"></div>
+                <div class="fotosprodutos"></div>
+                <div class="fotosprodutos"></div>
+                <div class="fotosprodutos"></div>
+                <div class="fotosprodutos"></div>
+                <div class="fotosprodutos"></div>
             </div>
         </section>
     </div>
