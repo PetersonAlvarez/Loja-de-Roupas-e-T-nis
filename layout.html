@@ -16,6 +16,24 @@
             border-radius: 8px;
         }
 
+        input[type=text] {
+            width: 130px;
+            box-sizing: border-box;
+            border: 2px solid black;
+            border-radius: 4px;
+            font-size: 16px;
+            background-color: white;
+            background-image: url('lupa barra de pesquisa.png');
+            background-position: 5px 5px;
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            transition: width 0.4s ease-in-out;
+        }
+
+        input[type=text]:focus {
+            width: 100%;
+        }
+
         #logo {
             background-color: aliceblue;
             height: 70px;
@@ -51,10 +69,9 @@
         #imagemdelogin {
             height: 30px;
             width: 30px;
-            background-color: gold;
             margin: 5px;
             border: 1px solid black;
-            border-radius: 8px;
+            border-radius: 15px;
 
         }
 
@@ -70,7 +87,7 @@
         }
 
         li {
-            margin: 25px;
+            margin: 10px;
         }
 
         #navegação {
@@ -140,15 +157,13 @@
             <div id="imagemlogo"></div>
             <h3>Logo</h3>
         </div>
-        <ul id="listamenu">
-            <li>Principais Ofertas</li>
-            <li>Sapatos</li>
-            <li>Roupas</li>
-            <li>Carrinhos</li>
-        </ul>
+        <form>
+            <input type="text" name="pesquisa" spaceholder="Pesquisa">
+        </form>
         <div id="login">
             <h3>Login</h3>
-            <div id="imagemdelogin"></div>
+            <img src="C:\Users\Aluno\Documents\Loja site curso JS\Loja-de-Roupas-e-T-nis\icone de login.png"
+                id="imagemdelogin">
         </div>
     </header>
     <div id="main">
