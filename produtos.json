@@ -1,0 +1,44 @@
+[
+    {
+        "produto": "Video-Game",
+        "categoria": "elêtronicos",
+        "descrição": "ps5",
+        "preço": "R$3.500",
+        "cor": "branco"
+    },
+    {
+        "produto": "Video-Game",
+        "categoria": "elêtronicos",
+        "descrição": "xbox-series-s",
+        "preço": "R$3.500",
+        "cor": "preto"
+    },
+    {
+        "produto": "placa-de-video",
+        "categoria": "elêtronicos",
+        "descrição": "nvidia-rtx-3060-geforce",
+        "preço": "R$2.100",
+        "cor": "preto"
+    },
+    {
+        "produto": "processador",
+        "categoria": "elêtronicos",
+        "descrição": "intel-core-i7-20nucleos",
+        "preço": "R$3.500",
+        "cor": "verde"
+    },
+    {
+        "produto": "placa-mae",
+        "categoria": "elêtronicos",
+        "descrição": "asus-amd-a520mk",
+        "preço": "R$500",
+        "cor": "preto"
+    },
+    {
+        "produto": "notebook",
+        "categoria": "elêtronicos",
+        "descrição": "macbook-pro-m3-pro-space-apple",
+        "preço": "R$15.000",
+        "cor": "preto"
+    }
+]
