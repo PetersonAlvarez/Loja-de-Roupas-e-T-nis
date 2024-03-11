@@ -2,6 +2,7 @@
     {
         "produto": "Video-Game",
         "categoria": "elêtronicos",
+        "imagem":"https://t3.ftcdn.net/jpg/05/62/73/08/360_F_562730828_RWKHyahgDFwinSf4vcID8jEG2ns1Bgfd.jpg",
         "descrição": "ps5",
         "preço": "R$3.500",
         "cor": "branco"
@@ -9,6 +10,7 @@
     {
         "produto": "Video-Game",
         "categoria": "elêtronicos",
+        "imagem": "https://http2.mlstatic.com/D_NQ_NP_663816-MLA74805955225_022024-O.webp",
         "descrição": "xbox-series-s",
         "preço": "R$3.500",
         "cor": "preto"
@@ -16,6 +18,7 @@
     {
         "produto": "placa-de-video",
         "categoria": "elêtronicos",
+        "imagem": "https://m.media-amazon.com/images/I/81uFpNyjm5L._AC_SX679_.jpg",
         "descrição": "nvidia-rtx-3060-geforce",
         "preço": "R$2.100",
         "cor": "preto"
@@ -23,6 +26,7 @@
     {
         "produto": "processador",
         "categoria": "elêtronicos",
+        "imagem": "https://http2.mlstatic.com/D_NQ_NP_934562-MLA72440523906_102023-O.webp",
         "descrição": "intel-core-i7-20nucleos",
         "preço": "R$3.500",
         "cor": "verde"
@@ -30,6 +34,7 @@
     {
         "produto": "placa-mae",
         "categoria": "elêtronicos",
+        "imagem": "https://www.asus.com/media/global/gallery/0hdz0jfsm8pqz9wr_setting_xxx_0_90_end_800.png",
         "descrição": "asus-amd-a520mk",
         "preço": "R$500",
         "cor": "preto"
@@ -37,6 +42,7 @@
     {
         "produto": "notebook",
         "categoria": "elêtronicos",
+        "imagem": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp-14-m3-max-pro-spaceblack-cto-hero-202310_FMT_WHH?wid=484&hei=298&fmt=jpeg&qlt=90&.v=1697314999766",
         "descrição": "macbook-pro-m3-pro-space-apple",
         "preço": "R$15.000",
         "cor": "preto"

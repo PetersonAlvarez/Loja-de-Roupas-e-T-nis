@@ -1,40 +1,46 @@
 class Produto {
-    constructor(nome, sobrenome, idade, altura) {
-        this.nome = nome
-        this.sobrenome = sobrenome
-        this.idade = idade
-        this.altura = altura
+    constructor(produto,imagem,preco,cor,descrição) {
+        this.produto = produto
+        this.imagem = imagem
+        this.preco = preco
+        this.cor = cor
+        this.descrição = descrição
     }
 }
 
-function carregaUsuarios() {
-    fetch("usuários.json")
+function carregarProdutos() {
+    fetch("produtos.json")
         .then(response => response.json())
-        .then(usuarios => {
-            usuarios.forEach(usuario => {
-                const usuario = new Usuario(usuario.nome, usuario.sobrenome, usuario.idade, usuario.altura)
+        .then(produtos => {
+            produtos.forEach(produto => {
+                const produto = new Produto(produto.produto, produto.imagem, produto.preço, produto.cor)
                 
-                addUsuarioTabela(usuario)
+                fotosProdutos(produto)
             });
         })
 
 }
 
-function addUsuarioTabela(usuario){
-    const tabelaUsuario = document.getElementById("tabelaDeUsuarios2")
+function fotosProdutos(produto){
 
-    const linhaUsuario = document.createElement("tr")
 
-    linhaUsuario.classname = "linhas"
+    const fotosDeProdutos = document.getElementById("fotosProdutos")
 
-    linhaUsuario.innerHTML = 
+    const cartaoProduto = document.createElement("div")
+
+    cartaoProduto.classname = "Cartão Produto"
+
+    cartaoProduto.innerHTML = 
     `
-        <td> ${usuario.nome} </td>
-        <td> ${usuario.sobrenome} </td>
-        <td> ${usuario.idade} </td>
-        <td> ${usuario.altura} </td>
+        <h2> ${produto.produto} </h2>
+        <img src="${produto.imagem}" alt=" imagem do produto"> 
+        <h4> ${produto.preço} </h4>
+        <p> ${produto.cor} </p>
+        <p> ${produto.descrição} </p>
     `
-    tabelaUsuario.appendChild(linhaUsuario);
+    fotosDeProdutos.appendChild(cartaoProduto);
 }
 
-windows.onload = carregaUsuarios;
+windows.onload = carregarProdutos;
+//npm install -global http-server
+//http-server
